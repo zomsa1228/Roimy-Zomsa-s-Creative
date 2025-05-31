@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="ja" data-bs-theme="auto">
+  <head><script src="./js/color-modes.js"></script>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.112.5">
+    <title>Main Page</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.3/examples/starter-template/">
+    
+    <!-- 外部CSS -->
+    <!-- メインCSS -->
+    <link href="/css/main.css" rel="stylesheet">
+    <!-- Bootstrap -->
+    <link href="./css/bootstrap.min.css" rel="stylesheet">
+    <!-- Youtube 軽量埋め込み用 -->
+    <link href="./css/lite-yt-embed.css" rel="stylesheet"/>    
+  </head>
+  <body>
+
+  <!-- メニュー -->
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Roimy Zomsa's Creative</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Songs of History</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Pricing</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Disabled</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- 
+    | xs  | <576px  | スマホ（縦持ち）
+    | sm  | ≥576px  | スマホ（横持ち）
+    | md  | ≥768px  | タブレット
+    | lg  | ≥992px  | 小型ノートPC
+    | xl  | ≥1200px | 一般的ラップトップ
+    | xxl | ≥1400px | WQHD〜4KのPCモニタ
+    -->
+        <div class="row mx-auto">
+          <div class="col-lg-8 mx-auto p-4 py-md-5">
+            <header class="d-flex align-items-center pb-3 mb-5 border-bottom">
+              <a href="/" class="d-flex align-items-center text-body-emphasis text-decoration-none">
+                <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"/></svg>
+                <span class="fs-4">Playlists</span>
+              </a>
+            </header>
+          </div>
+        </div>
+      <main>
+    <div class="row mx-auto py-md-5">
+      <div class="col-lg-3">
+        <h1 class="text-body-emphasis">Songs of History</h1>
+        <p class="fs-5 col-md-8">世界の軍歌と行進曲、愛国歌、プロパガンダ曲、革命歌、式典曲、民謡など.</p>
+        <div class="mb-5">
+          <a href="https://www.youtube.com/playlist?list=PLIdCuHE4pOpFdPhSsFJiUKBZ5TKCT1W1C" class="btn btn-danger btn-lg px-4">Youtube</a>
+          <a href="https://www.youtube.com/playlist?list=PLIdCuHE4pOpFdPhSsFJiUKBZ5TKCT1W1C" class="btn btn-danger btn-lg px-4">Youtube Music</a>
+        </div>
+      </div> 
+    </div>
+
+    <div class="row mx-auto py-md-5">
+      <div class="col-lg-3">
+        <!-- Bootstrap Card -->
+        <div class="card">
+          <!-- Youtube軽量埋め込みJS:https://mimimopu.com/youtube_optimization/ -->
+          <a href="https://youtu.be/Qw4ZSSgjf38" target="_blank">
+            <lite-youtube class="card-img-top" videoid="Qw4ZSSgjf38"></lite-youtube>
+          </a>
+
+          <div class="card-body">
+            <!-- SVG国旗アイコン：https://nucleoapp.com/svg-flag-icons -->
+            <h5 class="card-title">The Army Goes Rolling Along</h5>
+            <p class="card-text">1956年に作られたアメリカ陸軍の公式軍歌</p>
+            <a href="https://youtu.be/Qw4ZSSgjf38" class="btn btn-danger">Watch on Youtube</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </main>
+
+  <footer class="pt-5 my-5 text-body-secondary border-top">
+    &copy; 2025 Roimy Zomsa – <a href="https://opensource.org/licenses/MIT">MIT License</a>
+  </footer>
+
+<script src="./js/bootstrap.bundle.min.js"></script>
+<script src="./js/lite-yt-embed.js"></script>
+
+  </body>
+</html>
